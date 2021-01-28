@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+
+    <RelativeLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layout1"
+        android:layout_marginTop="-600dp"
+        android:background="#8E9A9A" />
+
+    <RelativeLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="550dp"
+        android:background="#EF3036" />
+
+    <RelativeLayout
+        android:id="@+id/layout3"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignBottom="@+id/layout1"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="-30dp"
+        android:background="#E4EAE4" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/layout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/nama_app"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/biodata1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/layout1"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="-80dp"
+        android:text="@string/biodata1"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/nama1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/biodata1"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="-25dp"
+        android:text="@string/nama"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/nama2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/biodata1"
+        android:layout_alignStart="@+id/nama1"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="-25dp"
+        android:text="@string/m_adli_al_qardawi"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/jeniskelamin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/nama1"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="-25dp"
+        android:text="@string/jenis_kelamin"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/jeniskelamin2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/nama2"
+        android:layout_alignEnd="@id/jeniskelamin"
+        android:layout_marginBottom="-25dp"
+        android:layout_marginEnd="-33dp"
+        android:text="@string/pria"
+        android:textSize="15sp" />
+
+</RelativeLayout>

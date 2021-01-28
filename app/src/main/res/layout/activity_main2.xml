@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="150dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/judul"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/biodata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/judul"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/biodata"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/biodata"
+        android:layout_marginTop="130dp"
+        android:layout_toEndOf="@id/biodata"
+        android:text="@string/nama"
+        android:textSize="40sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/nama"
+        android:layout_alignBottom="@+id/nama"
+        android:layout_toEndOf="@+id/nama"
+        android:gravity="center"
+        android:text="@string/m_adli_al_qardawi"
+        android:textSize="50sp" />
+
+</RelativeLayout>
